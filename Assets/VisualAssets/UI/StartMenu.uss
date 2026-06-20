@@ -1,0 +1,94 @@
+.screen-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.menu-container {
+    background-color: rgb(45, 45, 45);
+    padding: 60px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    align-items: center;
+    min-width: 500px;
+}
+
+.title-label {
+    font-size: 72px;
+    -unity-font-style: bold;
+    color: white;
+    margin-bottom: 50px;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.button-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-width: 2px;
+    border-color: rgb(100, 100, 100);
+    transition-duration: 0.1s;
+}
+
+.btn-primary {
+    background-color: rgb(60, 120, 200);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(100, 100, 100);
+    border-color: rgb(255, 255, 255);
+    scale: 1.05;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgb(80, 150, 230);
+}
+
+.btn:active {
+    background-color: rgb(50, 50, 50);
+    scale: 0.95;
+}
+
+/* Settings Specific */
+.settings-content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.setting-item {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.setting-label {
+    font-size: 20px;
+    color: white;
+    width: 150px;
+}
+
+.setting-slider {
+    flex-grow: 1;
+}
+
+.hidden {
+    display: none;
+}

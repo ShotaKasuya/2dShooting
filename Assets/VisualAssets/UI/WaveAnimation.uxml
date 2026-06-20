@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VisualAssets/UI/WaveAnimation.uss?fileID=7433441132597879392&amp;guid=04486965a7103a0409dd51bf2f10aa63&amp;type=3#WaveAnimation"/>
+    <ui:VisualElement name="wave-root" picking-mode="Ignore" class="wave-label-container">
+        <ui:Label name="lbl-wave-start" picking-mode="Ignore" text="" class="wave-label wave-start-hidden" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=afdcc056076362a459d3cdefc33ad0f8&amp;type=3#NotInter-Regular&quot;); text-overflow: clip; opacity: 1;"/>
+        <ui:Label name="lbl-wave-clear" text="WAVE CLEAR" picking-mode="Ignore" class="wave-label wave-clear-hidden"/>
+        <ui:Label name="lbl-countdown" picking-mode="Ignore" class="wave-label countdown-label"/>
+        <ui:Label text="" name="Label"/>
+    </ui:VisualElement>
+</ui:UXML>

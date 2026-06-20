@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VisualAssets/UI/GameResult.uss?fileID=7433441132597879392&amp;guid=0e458430331361b46b8bbfd442a491e0&amp;type=3#GameResult"/>
+    <ui:VisualElement name="root" class="screen-root">
+        <ui:VisualElement class="result-container">
+            <ui:Label name="lbl-message" text="Game Result" class="lbl-message"/>
+            <ui:VisualElement name="button-container" class="button-container">
+                <ui:Button name="btn-retry" text="リトライ" class="btn"/>
+                <ui:Button name="btn-map" text="マップへ" class="btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

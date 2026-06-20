@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/VisualAssets/UI/OnScreenInput/Button.uss?fileID=7433441132597879392&amp;guid=0dea9186a9944ddab00a20cc256e5a88&amp;type=3#Button"/>
+    <ui:VisualElement class="container">
+        <ui:Button name="enter-button" text="" class="enter-button" style="bottom: 10%; right: 10px;"/>
+    </ui:VisualElement>
+</ui:UXML>

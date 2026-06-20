@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Butto" src="project://database/Assets/VisualAssets/UI/OnScreenInput/Butto.uxml?fileID=9197481963319205126&amp;guid=f53718ccb5884bc0a7404dec7dc12189&amp;type=3#Butto"/>
+    <ui:Template name="UIToolkitOnScreenStick" src="project://database/Assets/VisualAssets/UI/OnScreenInput/UIToolkitOnScreenStick.uxml?fileID=9197481963319205126&amp;guid=79d5e0d8a561b6147ac84e722078c57f&amp;type=3#UIToolkitOnScreenStick"/>
+    <ui:GroupBox style="flex-direction: row; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 100%; width: 100%;">
+        <ui:Instance template="UIToolkitOnScreenStick" style="height: 100%; bottom: 0; left: 0; width: 50%;"/>
+        <ui:Instance template="Butto" style="right: 0; bottom: 0; align-self: auto; align-items: auto; justify-content: flex-start; align-content: auto; width: 50%; height: 100%;"/>
+    </ui:GroupBox>
+</ui:UXML>

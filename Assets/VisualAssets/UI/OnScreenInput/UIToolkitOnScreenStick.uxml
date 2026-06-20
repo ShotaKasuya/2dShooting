@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VisualAssets/UI/OnScreenInput/UIToolkitOnScreenStick.uss?fileID=7433441132597879392&amp;guid=50db7346a5d308f458a38af7fc2e072d&amp;type=3#UIToolkitOnScreenStick"/>
+    <ui:VisualElement name="stick-container" class="stick-container">
+        <ui:VisualElement name="stick-background" class="stick-background">
+            <ui:VisualElement name="stick-thumb" class="stick-thumb"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

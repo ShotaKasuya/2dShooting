@@ -1,0 +1,47 @@
+/* バーチャルスティック全体の配置コンテナ */
+.stick-container {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* スティックの丸い背景（外枠） */
+.stick-background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    border-width: 4px;
+    border-radius: 80px; /* 半径 (width / 2) */
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color, border-color;
+    transition-duration: 0.15s;
+}
+
+/* スティック背景がホバーまたはタッチされた時の視覚フィードバック */
+.stick-background:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* 動くつまみ（スティックコア） */
+.stick-thumb {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 32px; /* 半径 (width / 2) */
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.9);
+    transition-property: background-color;
+    transition-duration: 0.15s;
+}
+
+/* つまみがドラッグ操作中（アクティブ）の時の色 */
+.stick-background:active .stick-thumb {
+    background-color: rgba(255, 255, 255, 0.95);
+}

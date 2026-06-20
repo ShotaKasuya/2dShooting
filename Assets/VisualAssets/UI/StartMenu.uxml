@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd" editor-extension-mode="False">
+    <Style src="project:/Assets/VisualAssets/UI/StartMenu.uss" />
+    <ui:VisualElement name="root" class="screen-root">
+        <!-- Main Menu -->
+        <ui:VisualElement name="main-menu" class="menu-container">
+            <ui:Label text="SHOOTING 2D" class="title-label" />
+            
+            <ui:VisualElement class="button-container">
+                <ui:Button name="btn-start" text="START" class="btn btn-primary" />
+                <ui:Button name="btn-settings" text="SETTINGS" class="btn" />
+                <ui:Button name="btn-quit" text="QUIT" class="btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Settings Menu (Hidden by default) -->
+        <ui:VisualElement name="settings-menu" class="menu-container hidden">
+            <ui:Label text="SETTINGS" class="title-label" />
+            
+            <ui:VisualElement class="settings-content">
+                <ui:VisualElement class="setting-item">
+                    <ui:Label text="BGM Volume" class="setting-label" />
+                    <ui:Slider name="slider-bgm" low-value="0" high-value="1" value="0.75" class="setting-slider" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="setting-item">
+                    <ui:Label text="SE Volume" class="setting-label" />
+                    <ui:Slider name="slider-se" low-value="0" high-value="1" value="0.75" class="setting-slider" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="button-container">
+                <ui:Button name="btn-back" text="BACK" class="btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

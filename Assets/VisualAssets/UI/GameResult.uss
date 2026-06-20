@@ -1,0 +1,65 @@
+.screen-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.result-container {
+    background-color: rgb(45, 45, 45);
+    padding: 40px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    align-items: center;
+    min-width: 400px;
+}
+
+.lbl-message {
+    font-size: 48px;
+    -unity-font-style: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.lbl-message.victory {
+    color: rgb(255, 215, 0);
+}
+
+.lbl-message.defeat {
+    color: rgb(255, 69, 0);
+}
+
+.button-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(100, 100, 100);
+    border-color: rgb(255, 255, 255);
+}
+
+.btn:active {
+    background-color: rgb(50, 50, 50);
+}
+
+.hidden {
+    display: none;
+}

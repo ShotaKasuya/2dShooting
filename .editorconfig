@@ -1,0 +1,35 @@
+﻿[*.cs]
+
+# Instance fields
+dotnet_naming_rule.instance_fields.severity = warning
+dotnet_naming_rule.instance_fields.symbols = instance_fields
+dotnet_naming_rule.instance_fields.style = m_prefix
+
+dotnet_naming_symbols.instance_fields.applicable_kinds = field
+dotnet_naming_symbols.instance_fields.applicable_accessibilities = private, protected, internal
+dotnet_naming_symbols.instance_fields.required_modifiers =
+
+dotnet_naming_style.m_prefix.required_prefix = m_
+dotnet_naming_style.m_prefix.capitalization = pascal_case
+
+# Static fields
+dotnet_naming_rule.static_fields.severity = warning
+dotnet_naming_rule.static_fields.symbols = static_fields
+dotnet_naming_rule.static_fields.style = s_prefix
+
+dotnet_naming_symbols.static_fields.applicable_kinds = field
+dotnet_naming_symbols.static_fields.required_modifiers = static
+
+dotnet_naming_style.s_prefix.required_prefix = s_
+dotnet_naming_style.s_prefix.capitalization = pascal_case
+
+# Constants
+dotnet_naming_rule.constants.severity = warning
+dotnet_naming_rule.constants.symbols = constants
+dotnet_naming_rule.constants.style = k_prefix
+
+dotnet_naming_symbols.constants.applicable_kinds = field
+dotnet_naming_symbols.constants.required_modifiers = const
+
+dotnet_naming_style.k_prefix.required_prefix = k_
+dotnet_naming_style.k_prefix.capitalization = pascal_case
